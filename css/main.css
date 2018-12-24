@@ -855,7 +855,7 @@ input[type="button"] {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    height: 5.4rem;
+    height: auto;
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
@@ -3739,4 +3739,44 @@ footer .row {
   #cat{
     padding-left:30%;padding-right:30%;
   }
+}
+
+.btn {
+    white-space: normal;
+}
+.events-cul-list{
+    border:1px solid white;
+    background-color:#111111;
+    color:#e25c7f;
+    font-family:AR;
+    width: 30%;
+    margin: 5%;
+}
+
+.events-tech-list{
+    border:1px solid white;
+    background-color:#111111;
+    color:#fafafa;
+    font-family:AR;
+    width: 30%;
+    margin: 5%;
+}
+
+@media only screen and (max-width: 500px){
+    .events-cul-list{
+        border:1px solid white;
+        background-color:#111111;
+        color:#e25c7f;
+        font-family:AR;
+        width: 80%;
+        margin: 3%;
+    }
+    .events-tech-list{
+        border:1px solid white;
+        background-color:#111111;
+        color:#fafafa;
+        font-family:AR;
+        width: 80%;
+        margin: 3%;
+    }
 }
